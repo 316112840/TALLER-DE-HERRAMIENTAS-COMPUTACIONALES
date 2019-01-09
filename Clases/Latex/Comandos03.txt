@@ -1,0 +1,107 @@
+    1  df-lh
+    2   df -lh
+    3  uname -a
+    4  uname -a/int kernel
+    5  file/bin/bash/algo
+    6  file/bin/bash/edwin
+    7  touch/temp/edwin
+    8  FIle/bin/bash/edwin
+    9  ls-l/bin/bash
+   10  ls-l/bin/bash/edwin
+   11  touch/tmp/edwin
+   12  touch /tmp/edwin
+   13  uname -a 
+   14  File/bin/bash
+   15  uname -a
+   16  File /bin/bash
+   17  ls -l /bin/bash
+   18  touch /tmp/edwin
+   19  ls -l /tmp/edwin
+   20  chmod700 /tmplalgo
+   21  chmod700 /tmp/edwin
+   22  chmod 700/tmplalgo
+   23  chmod 700 /tmplalgo
+   24  chmod 700 /tmpledwin
+   25  chmod 700 /tmp/edwin
+   26  ls -l /tmp/edwin
+   27  chmod 751 /tmp/edwin
+   28  /tmp/edwin
+   29   
+   30  set
+   31  set | less
+   32  file /tmp/*
+   33  pwd /etc
+   34  pwd
+   35  pwd 
+   36  cd
+   37  pwd
+   38  git init
+   39  git config --global user.mail "asaped96@gmail.com"
+   40  git config --global user.name "312080367"
+   41  git init
+   42  cd Documentos/
+   43  ls
+   44  git clone https://github.com/312080367/TallerDeHerramientasComputacionales.git
+   45  cd..
+   46  cd Descargas/
+   47  ls
+   48  git clone https://github.com/312080367/TallerDeHerramientasComputacionales.git
+   49  cd
+   50  cd Descargas/
+   51  ls
+   52  git clone https://github.com/312080367/TallerDeHerramientasComputacionales.git
+   53  cd Documentos/
+   54  cd
+   55  cd Documentos/
+   56  ls
+   57  cd TallerDeHerramientasComputacionales/
+   58  ls
+   59  git status
+   60  git add *
+   61  git commit
+   62  git config --global user.mail "asaped96@gmail.com"
+   63  git config --global user.name "312080367"
+   64  git commit
+   65  git config --global user.email "asaped96@gmail.com"
+   66  git config --global user.name "312080367"
+   67  git commit
+   68  git push
+   69  git commit
+   70  git push
+   71  cd Descargas/
+   72  cd TALLER
+   73  cd Documentos/
+   74  cd .
+   75  cd..
+   76  cd Documentos/
+   77  cd TALLER
+   78  cd ..
+   79  vi
+   80  git clone https://github.com/316112840/TALLER-DE-HERRAMIENTAS-COMPUTACIONALES
+   81  cd TALLER DE HERRAMIENTAS COMPUTACIONALES
+   82  cd TALLER-DE-HERRAMIENTAS-COMPUTACIONALES
+   83  vi README.md
+   84  git add *
+   85  cat README.md
+   86  git commit
+   87  git commit -a
+   88  git push
+   89  ls
+   90  mkdir -p Clases/Latex
+   91  ls
+   92  ls Clases
+   93  mkdir Clases/Programas
+   94  ls
+   95  ls Clases/
+   96  vi Clases/Latex/03.txt
+   97  vi Clases/Latex/03.txt 
+   98  cd ..
+   99  git init TALLER
+  100  ls
+  101  cd TALLER-DE-HERRAMIENTAS-COMPUTACIONALES/
+  102  vi Clases/Latex/03.txt 
+  103  git add *
+  104  git status
+  105  git commit -m"Se creo el archivo 03 en el directorio Latex dentro de Clases"
+  106  git push
+  107  history > Clases/Latex/Comandos03.txt
