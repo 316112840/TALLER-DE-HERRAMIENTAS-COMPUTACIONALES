@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JAN 2019 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JAN 2019 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Día05.tex
-(./Día05.tex
+**PreguntasSemana1.tex
+(./PreguntasSemana1.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -447,8 +447,9 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (./Día05.aux)
-\openout1 = `Día05.aux'.
+))
+(./PreguntasSemana1.aux)
+\openout1 = `PreguntasSemana1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -534,32 +535,24 @@ e
 ))
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 18--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--25
-
- []
-
-[2] (./Día05.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./PreguntasSemana1.aux) ) 
 Here is how much of TeX's memory you used:
- 3082 strings out of 494923
- 39726 string characters out of 6180742
- 102048 words of memory out of 5000000
- 6372 multiletter control sequences out of 15000+600000
- 6514 words of font info for 24 fonts, out of 8000000 for 9000
+ 3083 strings out of 494923
+ 39866 string characters out of 6180742
+ 102043 words of memory out of 5000000
+ 6373 multiletter control sequences out of 15000+600000
+ 6506 words of font info for 24 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,7n,35p,327b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb>
-Output written on Día05.pdf (2 pages, 33500 bytes).
+ 41i,7n,35p,283b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb>
+Output written on PreguntasSemana1.pdf (2 pages, 31380 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
