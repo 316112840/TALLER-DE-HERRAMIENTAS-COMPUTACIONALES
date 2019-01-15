@@ -5,7 +5,10 @@ def vAbsoluto(x):
     else:          #si el bloque (lo que está depués de los dos puntos) "if" es falso se hará lo de este bloque.
         return(-x) 
     
-
+x=10
+while x>0:
+    x=x-1
+print x
 
 
 
