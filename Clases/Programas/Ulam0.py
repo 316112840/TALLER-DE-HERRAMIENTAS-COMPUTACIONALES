@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Esta es mi versión de Ulam
+#Esta es mi versión de Ulam:
 def Ulam0(x):
     i = 0
     while x>1:

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Esta es la versión del profesor de Ulam
+#Esta es la versión del profesor de Ulam:
 def ulam(x):
     #if (x/2)*-x == 0:
     if x%2 == 0:
