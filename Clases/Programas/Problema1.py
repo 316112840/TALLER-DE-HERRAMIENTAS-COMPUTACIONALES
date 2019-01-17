@@ -8,13 +8,15 @@ Problema 1'''
 
 
 def mcd(a,b):
-    a = a
-    b = b
+    if a<b:  #Este bloque if se coloca para intercambiar las variables cuando "a" es menor que "b"
+        tmp = b
+        b= a
+        a = tmp
     r = a%b
     while r != 0:
         a = b
         b = r
         r = a%b
     return b
-print"El máximo común divisor es: %f" %(b)
+
 
