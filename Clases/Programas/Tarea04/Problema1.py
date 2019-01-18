@@ -16,5 +16,5 @@ def mcd(a,b):
         b = r
         r = a%b
     return b
-print"El máximo común divisor es: %f" %(b)
+    print"El máximo común divisor es: %f" %(b)
 
