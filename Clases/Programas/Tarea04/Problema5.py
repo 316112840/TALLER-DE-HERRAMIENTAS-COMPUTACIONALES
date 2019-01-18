@@ -6,4 +6,4 @@ Taller de Herramientas Computacionales
 Problema 5'''
 
 
-def suma(a):
+def SumaN(a):
