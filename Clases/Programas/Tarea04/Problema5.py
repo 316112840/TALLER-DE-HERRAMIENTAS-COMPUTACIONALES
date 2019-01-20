@@ -7,12 +7,10 @@ Problema 5'''
 
 
 def SumaN(n):
-    a = 0
-    b = 1
-    c = a + b
-    while n >= 0:
-        n += c
-    print(n)
-    
-#n += a   
-#n= a +n
+    i = 0
+    A0 = 0
+    while n > i:
+        i = i + 1
+        A0 = A0 + n
+    print "La suma de los primeros %d naturales positivos es: %d" % (n, A0)
+
