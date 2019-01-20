@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{}}	
+
+
+%Aquí inicia la portada del documento
+\title{\Huge\item\color{blue}\textbf{PREGUNTAS DE LA SEMANA 2 DEL CURSO}}
+\author{\Large Mariana Yasmin Martínez García}
+\date{\Large 18/01/2019}
+
+
+\begin{document}
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Imagenes/1}
+	\caption{Escudo de la Facultad de ciencias}
+	\label{figura:1}
+\end{figure}
+
+	\maketitle
+		
+	\newpage
+	
+	\title{\huge\color{blue}\textbf{Cuestionario}} \\
+	
+	\title\textbf{\Large\color{blue}\text{CLASE 06}} 
+	\begin{enumerate}
+		\Large{\color{blue}\item¿Qué es un algoritmo?}
+		es un conjunto finito de instrucciones que tienen como propósito resolver algún problema.
+		\Large{\color{blue}\item ¿Para qué sirve el ciclo while?}
+		while sirve para repetir cierto proceso hasta que la condición deje de cumplirse.
+		\Large{\color{blue}\item ¿Para qué sirve la palabra "and"?}
+		sirve para poder en listar varias condiciones, se traduce al español como "y".
+		\Large{\color{blue}\item ¿Para qué sirve la palabra "or"?}
+		sirve para expresar que puede ocurrir cualquiera de las condiciones que se dé.
+		\Large{\color{blue}\item ¿Para qué sirve "print"?}
+		para que te muestre algún resultado.
+		\Large{\color{blue}\item Menciona palabras que sirvan para hacer condiciones:} 
+		if, else, elif \\ \\
+	\end{enumerate}
+
+
+	
+	\title\textbf{\Large\color{blue}\text{CLASE 07}} 
+	\begin{enumerate}
+		\Large{\color{blue}\item ¿Cuál es la diferencia entre colocar un signo de igual (=) y colocar dos (==)?}
+		la diferencia es que el primero te indica una asignación, y colocar dos te permite crear una igualdad.
+		\Large{\color{blue}\item En el ejercicio para calcular la raíz cuadrada, ¿Qué se hizo para que al final te mostrará la cantidad de veces que se repitió el proceso hasta conseguir el resultado?}
+		\begin{verbatim}
+		def raiz1(x):
+		h=x                
+		b=1.0   
+		e=0.0001 
+		i=0   
+		while vAbsoluto(b-h)>e: 
+		.		h = (b+h)/2         
+		.		b = x/h
+		.		i = i+1 
+		print"El ciclo se reitió %d veces"%(i)
+		return(h)
+		\end{verbatim}
+	Se colocó otra variable llamada "i" a la que inicialmente le asignamos el valor 0 ya que con los primeros valores no se había hecho algún ciclo. Dentro del ciclo "while" colocamos de nuevo la variable "i" pero ahora la asignamos con " i = i + 1 " lo que quiere decir que cada vez que se repite el ciclo while, el valor de "i" irá incrementando de uno en uno. Finalmente, cuando escribimos el "print" también colocamos que no solo nos mostrará el resultado sino que también nos mostrara el valor final de "i".
+	\Large{\color{blue}\item ¿Cómo se pueden escribir fracciones en Latex?}
+	Lo primero que hay que hacer es colocar dos símbolos de \$, uno al principio y otro al final, y entre ellos dos hay que escribir "frac{ }{ }" dentro de los primeros corchetes se escribirá el numerador  adentro del segundo se escribirá de denominador. \\ \\ \\
+	\end{enumerate}
+
+
+	\title\textbf{\Large\color{blue}\text{CLASE 08}} 
+	\begin{enumerate}
+		\Large{\color{blue}\item ¿Para qué sirve el comando "top"?}
+		este comando te da información sobre el sistema operativo, núcleos, etc.
+		\Large{\color{blue}\item ¿Qué comando se usó este día que te permite hacer un archivo ejecutable?}
+		el comando es \textbf{chmod tx} seguido del nombre del archivo.
+		\Large{\color{blue}\item ¿Para qué sirve el comando "whereis"?} 
+		este comando seguido del nombre de algún archivo te dirá dónde se encuentra dicho archivo.
+		\Large{\color{blue}\item ¿Cómo podemos darle órdenes al Bash desde el programa de Python?}
+		podemos hacer eso si colocamos \textbf{\#!/urs/bin/python2.7} al principio.
+		\Large{\color{blue}\item ¿A qué está asociado un método?}
+		todo método está asociado a un objeto.
+		\Large{\color{blue}\item ¿De qué nos serviría escribir type( ) con algún objeto dentro de los paréntesis?}
+		ese comando nos diría de qué tipo es el objeto, es decir, si es un entero, cadena, flotante, etc. \\
+	\end{enumerate}
+
+
+	\title\textbf{\Large\color{blue}\text{CLASE 09}} 
+	\begin{enumerate}
+		\Large{\color{blue}\item ¿Cuál es la diferencia entre documentclass{article} y documentclass{book}?}
+		el primero te deja hacer el documento con el formato de un artículo mientras que el segundo, de un libro.
+		\Large{\color{blue}\item ¿De qué sirve usepackage{hyperref}?}
+		sirve para poder enlazar cosas.
+		\Large{\color{blue}\item ¿De qué sirve begin\{verbatim\} y end\{verbatim\}}?
+		lo que se coloque entre esos dos se podrá incluir al texto tal y cómo está.
+		\Large{\color{blue}\item ¿Qué significa a\%b?}
+		es el módulo de "a" entre "b", es decir, el residuo de dividir "a" sobre "b". \\ \\
+	\end{enumerate}
+
+
+	\title\textbf{\Large\color{blue}\text{CLASE 10}} 
+	\begin{enumerate}
+		\Large{\color{blue}\item ¿Qué significa a != b?}
+		eso quiere decir que "a" no es igual a "b".
+		\Large{\color{blue}\item ¿Qué significa a += b?}
+		eso significa \textbf{a = a + b}, es decir, al último valor de "a" se le sumará el valor de "b" y posteriormente "a" guardará ese valor.
+		\Large{\color{blue}\item ¿En qué momento el bool( ) de alguna lista será verdadero?}
+		cuando la lista no sea vacía.
+		\Large{\color{blue}\item ¿Con qué método podemos incluir al objeto a una lista?}
+		con el método append \\
+		Podemos escribir L.append(3) y se incluirá al final el objeto "3" en la lista "L".
+		\Large{\color{blue}\item ¿Con qué método podemos incluir al objeto a una lista en una posición en específico?}
+		con el método insert \\
+		Podemos escribir L.insert(2, 78) y se incluirá en el índice 2 (la posición 3) el objeto "78".
+		\Large{\color{blue}\item ¿Con qué método podemos sacar algún objeto de una lista?}
+		con el método pop \\
+		Podemos escribir L.pop(3) y se sacará el objeto correspondiente al índice 3 y lo mostrará.
+	\end{enumerate}
+	
+\end{document}
