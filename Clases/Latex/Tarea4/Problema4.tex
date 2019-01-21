@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{TALLER-DE-HERRAMIENTAS-COMPUTACIONALES/Clases/Latex/Imagenes}}	
+
+
+%Aquí inicia la portada del documento
+\title{\Huge\item\color{orange}\textbf{PROBLEMA 4 }}
+\author{\Large Mariana Yasmin Martínez García}
+\date{\Large 20/01/2019}
+
+
+\begin{document}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../Imagenes/1}
+	\caption{}
+	\label{figura:1}
+\end{figure}
+
+
+	\maketitle
+		
+	\newpage
+	
+	\title{\huge\textbf{Problema 4: Sucesión de Fibonacci }} \\
+	Con este problema sí sufrí, no se me ocurría ni una forma de hacerlo. Pero después de pensarlo un rato se me ocurrió asignar a una variable (escogí "A0") al 0, es decir, \textbf{A0 = 0} Y otra que fuera \textbf{A1 = 1}\\
+	Después coloqué un while, la condición era que n>i donde i era la cantidad de veces que se repetía el ciclo y después coloqué:
+	\[ A0 = A0 + A1 \]
+	\[ A1 = A1 + A0 \]
+	Al hacer esto y ejecutar el programa con los primeros números el resultado que me mostraba era: 2, 5, 13 ,34 y 89. \\
+	Así que cambié la asignación inicial del A0 por \textbf{A0 = 1} y a todo lo demás lo dejé como estaba. Al hacer esto el resultado que me mostraba era: 3, 8, 21 , 55 y 144. \\
+	Me dí cuenta que dejando al A0 = 0 el resultado era el de los números impares de la sucesión de Fibonacci, y al dejar A0 = 1 me mostraba el de los pares. Por lo que se me ocurrió colocar un "if". Si el número que el usuario diera era par se realizaría con A0 = 1, y si era impar A0 empezaría siendo igual a 0. 
+
+
+\end{document}
