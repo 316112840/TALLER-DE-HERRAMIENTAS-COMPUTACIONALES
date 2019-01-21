@@ -15,6 +15,5 @@ def MCD(x,y):
         y = r
         r = x%y
         L.append(y)
-    return L
-    print"El máximo común divisor es: %f" %(L.pop(len(L) - 1))
+    print"El máximo común divisor es: %f" %(L.pop())
     
