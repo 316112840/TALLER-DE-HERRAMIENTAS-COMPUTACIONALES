@@ -7,16 +7,14 @@ Problema 3'''
 
 
 #Para transformar de °F a °C:
-def FaCe(a):
-    f = a
-    c  = (a - 32)/1.8
+def FaCe(f):
+    c  = (f - 32)/1.8
     return c
 
 #Para transformar de °C a °F:
-def CeFa(y):
-    c = y
-    a = y*1.8 +32
-    return a
+def CeFa(c):
+    f = c*9/5 +32
+    return f
 
 
 print CeFa(78)
