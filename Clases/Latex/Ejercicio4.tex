@@ -1,0 +1,56 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel}
+\graphicspath{{Imagenes/}}
+%\usetheme{Antibes}
+%\usetheme{AnnArbor}
+%\usetheme{Berkeley}
+%\usetheme{CambridgeUS}
+%\usetheme{Goettingen}
+%\usetheme{Bergen}
+\usetheme{Hannover}
+
+%Esto únicamente se utiliza para el tema Bergen
+%\def\insertauthorindicator(¿Quién?)
+%\def\insertdateindicator(Fecha)
+
+
+
+\title{Taller de Herramientas Computacionales}
+\author{Mariana Yasmin Martínez García}
+\date{\today}
+
+\begin{document}
+%	\maketitle
+	
+\begin{frame}
+%\transblinshorizontal
+	\frametitle{Mi primera presentación en LaTex}
+	\includegraphics[scale=0.50]{1}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Segunda diapositiva}
+	Esta es mi segunda diapositiva
+\end{frame}
+
+\begin{frame}[fragile] {Tercera diapositiva} %fragile te permite introducir caractéres especiáles
+	\begin{verbatim}
+	x = 10.5; y = 1.0/3; z = 15.3
+	# Esta es otra forma de escribir las variables: x,y,z=10.5,1.0/3,15.3
+	H = '''
+	El punto en R3 es:
+	(x,y,z)=(%.2f,%g,%G)
+	''' % (x,y,z)
+	print H
+	
+	G = '''
+	El punto en R3 es:
+	(x,y,z)=({laX:.2f},{laY:g},{laZ:G}
+	'''.format(laX=x,laY=y,laZ=z)
+	print G
+	\end{verbatim}
+\end{frame}
+
+\end{document}

@@ -7,13 +7,9 @@ clase 11: Grados C y grados F. Tabla'''
 
 gradosC = [-5 + i*0.5 for i in range(12)]
 gradosF = [9.0/5 *c + 32 for c in gradosC]
-
-
-tabla = zip (gradosC, gradosF)
-
+tabl = zip (gradosC, gradosF)
 L = []
-x = tuple(tabla)
-
+x = tuple(tabl)
 for i in x:
     #print(i)
     y = i
@@ -21,7 +17,6 @@ for i in x:
         #print(j)
         L.append(j)
 #print(L)
-
 A = [L[0], L[1]]
 print (A)
 B = [L[2], L[3]]
@@ -46,4 +41,10 @@ K = [L[20], L[21]]
 print (K)
 L = [L[22], L[23]]
 print (L)
-#A pesar de que sí quedó, siento que me compliqué demasiado y que lo puedo simplificar, así que lo modificaré después.
+#A pesar de que sí quedó, esto no es lo que se pedía. Debía de ser en comprensión.
+
+
+S = "============================================================="
+print S
+tabla = [[C, F] for C,F in zip(gradosC, gradosF)]
+print (tabla)
