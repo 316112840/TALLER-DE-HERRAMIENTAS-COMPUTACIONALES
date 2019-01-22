@@ -5,8 +5,8 @@
 Taller de Herramientas Computacionales
 Problema 1 usando listas, soluciones'''
 
-import Problema1
+from Problema1 import MCD
 
 x = input("Ingrese el número mayor: ")
 y = input("Ingrese el otro número: ")
-print Problema1.MCD(x, y)
+print (MCD(x, y))

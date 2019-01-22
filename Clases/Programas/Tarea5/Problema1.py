@@ -6,14 +6,12 @@ Taller de Herramientas Computacionales
 Problema 1 usando listas'''
 
 def MCD(x,y):
-    L = []
-    x = x
-    y = y
+    L = [] #Esta es una lista vacía
     r = x%y
     while r != 0:
         x = y
         y = r
         r = x%y
-        L.append(y)
-    print"El máximo común divisor es: %f" %(L.pop())
+        L.append(y) #A la lista le iré incluyendo los valores que "y"
+    print ("Máximo común divisor: " ), L[len(L)-1] #Imprimirá el último valor de la lista
     

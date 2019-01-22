@@ -4,16 +4,17 @@
 316112840
 Taller de Herramientas Computacionales
 Problema 3 con listas. Soluciones '''
-#NO ESTÁ TERMINADO
-import Problema3
 
+from Problema3 import Cel
+
+C = []
+n = input("¿CUÁNTOS GRADOS CELSIUS DESEA INGRESAR?")
 c = input("Ingrese el grado Celsius: ")
-S = "N"
-if c != S :
-    while a != S:
-        a = input("Ingrese el grado Celsius: ")
-        if a == S:
-            break
-        print "     C     F"
-        print Problema3.cel(a)
-    print Problema3.Cel(c)
+C.append(c)
+
+while c < n:
+    c = input("Ingrese el grado Celsius: ")
+    C.append(c)
+print (C)
+for i in C:
+    print (Cel(i))
