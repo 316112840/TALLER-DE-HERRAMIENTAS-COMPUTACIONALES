@@ -12,7 +12,10 @@ def laberinto(L, E):
     """ Este programa te permitirá
 encontar la salida del laberinto
 que se dé y la entrada"""
-    n = len(L[0])
-    m = len(L)
+    n = len(L[0])-1 #El laberinto es de n*m
+    m = len(L)-1
+    x = E[0]
+    y = E[1]
+    if x 
     
     
