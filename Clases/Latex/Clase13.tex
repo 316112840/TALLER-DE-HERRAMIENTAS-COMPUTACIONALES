@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{}}	
+
+
+%Aquí inicia la portada del documento
+\title{\Huge\item\color{purple}\textit{VITÁCORA DE LA CLASE NÚMERO 13 DEL CURSO}}
+\author{\Large\textit{ Mariana Yasmin Martínez García}}
+\date{\Large\textit{ 23/01/2019}}
+
+\begin{document}
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Imagenes/1}
+	\caption{Escudo de la Facultad de ciencias}
+	\label{fig:1}
+\end{figure}
+	\maketitle
+		
+	\newpage
+	
+	\title{\Huge\textbf{\color{purple}\textit{Vitácora: 23 de enero\\}}} \\
+	Empezamos esta clase revisando unos problemas del libro \textit{Python fácil}, se habló sobre  dudas de cómo resolverlos y se dejaron de tarea. \\ \\
+	Después empezamos a hablar sobre la sucesión de Fibonacci y mientras hacíamos eso, el profesor mencionó "función recursiva" que es aquella que dentro de su bloque se menciona a sí misma y necesita por lo menos un "if", también puede tener varios condicionales y un "else". \\ \\
+	Después de realizar un programa que permitiera calcular en enésimo número de la serie de Fibonacci hicimos una función recursiva para sumar los primeros enésimos números positivos naturales. \\ \\
+	Cuando terminamos eso, hicimos algo my parecido pero ahora con los objetos de una lista. Cuando hicimos esto el profesor nos mostró que cuando a alguna variable le asignamos el valor 0 o cuando a alguna lista la dejamos vacía, se toma como falso. Sin embargo, cuando la lista tiene objetos o a la variable le asignamos un valor diferente de 0, lo toma como verdadero. Y esto nos sirvió para poder hacer el problema de la lista mediante una función recursiva, esta quedó así:  \\
+	\begin{verbatim}
+	def printr(L):
+		if L: 
+		print L[0],
+		printr(L[1:])
+	\end{verbatim}
+	Finalmente revisamos lo que es una variable local y una global. La local es la que está dentro de un bloque, mientras que la global es aquella que puedes usar dentro del bloque donde fue definida. \\
+	La forma en la que podemos definir que una variable es global es colocando la palabra reservada \textbf{global} seguido de la variable y de esta manera poder usarla fuera de ese bloque.
+\end{document}
