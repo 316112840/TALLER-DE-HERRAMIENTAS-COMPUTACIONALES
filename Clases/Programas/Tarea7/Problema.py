@@ -3,16 +3,13 @@
 ''' Marínez García Mariana Yasmin
 316112840
 Taller de Herramientas Computacionales
-clase 13'''
+Problema 1 del libro Python facil, página 58'''
 
 def Listas(L1, L2):
-    if len(L1) == len(L2):
-        if i == j: #
-            print ("Ambas listas son iguales.")
-        else:
-            print ("Ambas listas no son iguales")
+    if L1 == L2: 
+        return ("Ambas listas son iguales.")
     else:
-        print ("Ambas listas no son iguales")
+        return ("Ambas listas no son iguales")
 
 x = input("INGRESE SU LISTA DE LA FORMA [a,b,c,]: ")
 y = input("INGRESE LA SEGUNDA LISTA DE LA FORMA [a,b,c]: ")
