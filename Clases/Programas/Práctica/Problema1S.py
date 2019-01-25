@@ -7,10 +7,10 @@ Examen práctico. Problema1. Soluciones'''
 
 from Problema1 import Grados
 
-x = ("¿Cuántos grados quiere introducir?")
-y = 0
+y = 1
+x = input("¿Cuántos grados quiere introducir?")
 while y <= x:
-    x = ("¿Cuántos grados quiere introducir?")
     y = y + 1
-    gradoF = input("Ingrese el grado Faherenheit: ")
-    print Grados(gradoF)
+    g = input("Ingrese el grado Faherenheit: ")
+    Grados(g)
+    

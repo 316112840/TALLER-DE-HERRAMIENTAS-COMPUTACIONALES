@@ -18,4 +18,5 @@ def Grados(F):
     y.append(diferencia)
     for resultado in y:
         print resultado,
+    print 
     
