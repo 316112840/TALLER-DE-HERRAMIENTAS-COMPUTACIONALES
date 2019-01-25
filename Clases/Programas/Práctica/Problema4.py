@@ -15,10 +15,10 @@ def Range(a, b, c):
         L.append(a)
     return L 
 
-def malla():
+def malla(a,b,c, d, e ,f):
     M = []
-    for i in Range(-5, 5, 0.5):
+    for i in Range(a, b, c):
         M.append([i])
-        for j in Range(-7,7, 0.5):
+        for j in Range(d,e, f):
             M.append([i,j])
     return M

@@ -1,16 +1,10 @@
+#!/usr/bin/python2.7
+# -*- coding: utf-8 -*-
+''' Marínez García Mariana Yasmin
+316112840
+Taller de Herramientas Computacionales
+Examen práctico. Problema4. Soluciones'''
 
-from Problema4 import Range
+from Problema4 import malla
 
-M =[]
-a = 0
-if -5 <= x <= 5:
-    a = a +1
-    for i in Range(-5,5,0.5):
-        M[a][0]== i
-    return M
-elif -7 <= x <= 7:
-    a = a +1 
-    for j in Range(-7, 7, 0.5):
-        M[a]=j
-    return M  
-print M
+print malla(-5,5,0.5,-7,7,0.5)
