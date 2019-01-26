@@ -11,8 +11,8 @@ def f(x1,x2,a,y1,y2,b):
     F = []
     for i in Range(x1,x2,a):
         for j in Range(y1,y2,b):
-            F.append([i,j])
+            h =  (i**2)/25.0 - (j**2)/49.0
+            F.append(h)
     return F
-#h = [(i**2)/25.0 - (j**2)/49.0 in F]
    
    
