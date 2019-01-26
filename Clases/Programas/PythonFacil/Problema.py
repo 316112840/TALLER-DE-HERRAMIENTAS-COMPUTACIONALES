@@ -14,6 +14,3 @@ def Listas(L1, L2):
     else:
         return ("Ambas listas no son iguales")
 
-x = input("INGRESE SU LISTA DE LA FORMA [a,b,c,]: ")
-y = input("INGRESE LA SEGUNDA LISTA DE LA FORMA [a,b,c]: ")
-print Listas(x,y)
