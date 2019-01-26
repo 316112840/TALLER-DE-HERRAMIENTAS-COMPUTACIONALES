@@ -18,7 +18,6 @@ def Range(a, b, c):
 def malla(a,b,c, d, e ,f):
     M = []
     for i in Range(a, b, c):
-        M.append([i])
         for j in Range(d,e, f):
             M.append([i,j])
     return M

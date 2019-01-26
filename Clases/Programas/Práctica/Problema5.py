@@ -9,18 +9,10 @@ from Problema4 import Range
 
 def f(x1,x2,a,y1,y2,b):
     F = []
-    F1 = []
-    F2= []
-    h = 0
     for i in Range(x1,x2,a):
-        F.append(i)
-    for j in Range(y1,y2,b):
-        F1.append(j)
-    g = len(F)*len(F1)
-    while h < g:
-        h += 1
-        f = (F[h]**2)/25.0 - (F[h]**2)/49.0
-        F2.append(f)
-    print F2
-    print F, F1, g, F2
-    
+        for j in Range(y1,y2,b):
+            F.append([i,j])
+    return F
+#h = [(i**2)/25.0 - (j**2)/49.0 in F]
+   
+   
