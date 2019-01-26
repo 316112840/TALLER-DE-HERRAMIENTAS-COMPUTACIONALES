@@ -25,5 +25,34 @@
 	\newpage
 	
 	\title{\Huge\textbf{\color{purple}\textit{Vitácora: 24 de enero\\}}} \\
+	Este día revisamos dudad que teníamos de los problemas que se nos dejó la clase anterior, en específico no centramos en el problema 5 que es sobre encontrar la salida de un laberinto dándonos las coordenadas de la entrada. \\
+	Revisamos paso por paso lo que debíamos hacer. Empezamos haciendo un laberinto trivial en el que la salida estuviera unos cuantos pasos frente a la entrada, donde no debíamos subir, bajar o regresar, solo debíamos seguir avanzando. La forma para saber si ya estábamos en la salida es que no hubiera ninguna obstrucción y que estuviéramos en el límite del laberinto, es decir, que si el laberinto era de m*n la primer coordenada del la posición donde estuviéramos fuera igual a m. \\
+	Después lo hicimos un poco más difícil colocado la salida en la parte de abajo. Y así quedó finalmente el código:  \\
+	\begin{verbatim}
+	def resolver(L, e):
+		n = len(L[0]) 
+		m = len(L)
+		x = e[0]
+		y = e[1]
+		if y == n-1 or x==m-1:
+			return e[0]+1, e[1]+1 
+		else:
+			if L[x][y+1] == False:
+				e = [x, y+1]
+				return resolver(L, e) 
+			elif L[x + 1][y] == False:
+				e = [x+1, y]
+				return resolver(L, e) 
+			else:
+				print "Ya no se puede seguir avanzando"
+	\end{verbatim}
+	Y terminar el resto se dejó de tarea. \\ \\
+	Cuando terminamos de hacer eso nos enseñaron que al usar \textbf{list(' ')} y colocando entre las comillas alguna palabra o algún número, este se regresará en una lista dividiendo a cada uno de los caractéres por comillas, es decir:
+	\begin{verbatim}
+	>>> list('Mi nombre es Mariana')
+	['M', 'i', ' ', 'n', 'o', 'm', 'b', 'r', 'e', ' ', 'e', 's', ' ',
+	 'M', 'a', 'r', 'i', 'a', 'n', 'a']
+	\end{verbatim}
+	  
 
 \end{document}
