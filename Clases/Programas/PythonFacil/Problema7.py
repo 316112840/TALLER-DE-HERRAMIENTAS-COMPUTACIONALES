@@ -17,4 +17,4 @@ def f(l):
 
 """Al ingresar una lista "l", si "l" tiene más de 0 números dentro de ella los sumará.
 si esto no se cumple, es decir, si tiene 0 elementos le restará "b" y como b es igual
-a 0 te mostrará el resultado de restar 0 menos 0, es decir, 0"""
+a 0 te mostrará el resultado de restar 0 menos 0, es decir, 0."""
