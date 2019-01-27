@@ -7,14 +7,13 @@ Problema 3 con listas. Soluciones '''
 
 from Problema3 import Cel
 
-C = []
-n = input("¿CUÁNTOS GRADOS CELSIUS DESEA INGRESAR?")
-c = input("Ingrese el grado Celsius: ")
-C.append(c)
 
-while c < n:
+n = input("¿CUÁNTOS GRADOS CELSIUS DESEA INGRESAR?")
+a=0
+C = []
+while a < n:
+    a += 1
     c = input("Ingrese el grado Celsius: ")
     C.append(c)
-print (C)
-for i in C:
-    print (Cel(i))
+
+print "Los grados Fahrenheit correspondientes a los grados Celsius que escribió se encuentran en esta lista: ", Cel(C)
