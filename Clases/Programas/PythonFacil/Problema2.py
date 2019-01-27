@@ -22,10 +22,10 @@ def suMatriz(M):
     return S
 
 
-def suMatriz2(M):
+def suMatriz2(M): #Falta corregir esto
     A = []
     for i in M:
-        A.append(sum(M[0][0]))
+        A.append(sum(M[0]))
         return A
 
         

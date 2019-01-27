@@ -15,7 +15,7 @@ while b < a:
     x = input("""Ingrese el contenido de la primera lista, de la forma [a,b,c,d...].
 La longitud de las listas deben ser la misma. """)
     M.append(x)
-print suMatriz(M)
+print suMatriz(M) #Esta es la suma de las filas, falta la suma de las columnas
 
 
 
