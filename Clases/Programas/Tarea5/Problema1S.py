@@ -9,4 +9,4 @@ from Problema1 import MCD
 
 x = input("Ingrese el número mayor: ")
 y = input("Ingrese el otro número: ")
-print (MCD(x, y))
+print "El máximo común múltiplo es: ", (MCD(x, y))
